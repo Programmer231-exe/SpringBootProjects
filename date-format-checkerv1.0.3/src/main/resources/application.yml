@@ -1,0 +1,8 @@
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+
+

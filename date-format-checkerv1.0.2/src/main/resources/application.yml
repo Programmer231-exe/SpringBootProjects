@@ -1,0 +1,9 @@
+constantvalues:
+  date: 2020-10-20
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+
+

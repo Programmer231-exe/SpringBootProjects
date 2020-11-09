@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<header class="jumbotron">
+    <h1>Welcome to Date Checker</h1>
+</header>
+<section class="container">
+    <form action="/dateCheck">
+        <div class="form-group">
+            <input type="text" class="form-control" name="userDate" id="userDate" required="required"/>
+            <br/>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </form>
+    <br/>
+
+
+    <div class="container">
+        <span class="alert alert-primary" th:text="${message}"></span>
+    </div>
+</section>
+</body>
+</html>
