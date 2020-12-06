@@ -1,0 +1,18 @@
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+  port: 8083
+
+kafka:
+  constants:
+    BOOTSTRAP_SERVERS : localhost:9092
+    GROUP_ID : Checker
+    ENABLE_AUTO_COMMIT : true
+    AUTO_COMMIT_INTERVAL_MS : 1000
+    KEY_DESERIALIZER : org.apache.kafka.common.serialization.StringDeserializer
+    VALUE_DESERIALIZER : com.dateformatchecker.deserializers.UserDeserializer
+    AUTO_OFFSET_RESET : latest
+
+

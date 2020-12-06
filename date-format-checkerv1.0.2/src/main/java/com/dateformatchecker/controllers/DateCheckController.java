@@ -31,6 +31,7 @@ public class DateCheckController {
                 logger.info("User Entered Date is Before or equals to constant date");
         }else{
                 model.addAttribute("message","False : entered date "+ date +" is after the constant date.");
+                model.addAttribute("updatedDate",date);
                 logger.info("User entered date is after the constant date.");
         }
         return "index";

@@ -1,0 +1,11 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+spring:
+  security:
+    user:
+      name : root
+      password : root
+      roles : user

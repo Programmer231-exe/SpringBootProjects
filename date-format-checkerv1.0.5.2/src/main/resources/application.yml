@@ -1,0 +1,10 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+security:
+  http:
+    auth:
+      authHeaderName : X-API-KEY
+      authHeaderValue : Sivasankar

@@ -1,0 +1,18 @@
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+  port: 8082
+
+
+kafka:
+  constants:
+   BOOTSTRAP_SERVERS : localhost:9092
+   ACKS : all
+   KEY_SERIALIZER : org.apache.kafka.common.serialization.StringSerializer
+   VALUE_SERIALIZER : com.dateformatchecker.serializers.UserSerializer
+   ENABLE_IDEMPOTENCE : true
+
+
+
