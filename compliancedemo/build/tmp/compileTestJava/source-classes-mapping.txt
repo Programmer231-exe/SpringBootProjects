@@ -1,0 +1,4 @@
+com/compliancecheck/repository/AccountRepositoryTest.java
+ com.compliancecheck.repository.AccountRepositoryTest
+com/compliancecheck/DemoApplicationTests.java
+ com.compliancecheck.DemoApplicationTests
